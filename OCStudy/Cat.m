@@ -8,6 +8,13 @@
 
 #import "Cat.h"
 
+@interface Cat () {
+    @public//不能调用
+    NSString *job;
+}
+ 
+@end
+
 @implementation Cat
 
 
