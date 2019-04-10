@@ -17,6 +17,7 @@
 		7609649B225C95CF0008E46A /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7609649A225C95CF0008E46A /* Cat.m */; };
 		76F481AE225C970300A0C1E4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F481AD225C970300A0C1E4 /* RootViewController.m */; };
 		76F481B1225C985100A0C1E4 /* Cat+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F481B0225C985100A0C1E4 /* Cat+Add.m */; };
+		76F481B5225CA0CB00A0C1E4 /* NSObject+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F481B4225CA0CB00A0C1E4 /* NSObject+Add.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		76F481AD225C970300A0C1E4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		76F481AF225C985100A0C1E4 /* Cat+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cat+Add.h"; sourceTree = "<group>"; };
 		76F481B0225C985100A0C1E4 /* Cat+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cat+Add.m"; sourceTree = "<group>"; };
+		76F481B3225CA0CB00A0C1E4 /* NSObject+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Add.h"; sourceTree = "<group>"; };
+		76F481B4225CA0CB00A0C1E4 /* NSObject+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Add.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		7609645D225C943A0008E46A /* OCStudy */ = {
 			isa = PBXGroup;
 			children = (
+				76F481B2225CA0B400A0C1E4 /* 其他 */,
 				76096498225C95B50008E46A /* 分类 */,
 				76096491225C94680008E46A /* System */,
 				76096467225C943C0008E46A /* Assets.xcassets */,
@@ -156,6 +160,15 @@
 				76F481B0225C985100A0C1E4 /* Cat+Add.m */,
 			);
 			name = "分类";
+			sourceTree = "<group>";
+		};
+		76F481B2225CA0B400A0C1E4 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				76F481B3225CA0CB00A0C1E4 /* NSObject+Add.h */,
+				76F481B4225CA0CB00A0C1E4 /* NSObject+Add.m */,
+			);
+			name = "其他";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +306,7 @@
 				76F481B1225C985100A0C1E4 /* Cat+Add.m in Sources */,
 				7609646E225C943C0008E46A /* main.m in Sources */,
 				76096460225C943A0008E46A /* AppDelegate.m in Sources */,
+				76F481B5225CA0CB00A0C1E4 /* NSObject+Add.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
